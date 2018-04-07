@@ -1,0 +1,23 @@
+# Creating the branches
+
+Git checkout -b <branchname>
+Git add .
+Git commit -m "comments"
+Git push origin <branchname>
+
+# Pushing the branch without any files in it
+Git push -u <branchname>
+
+# Importing the branches
+Git checkout master
+Git pull
+Git branch -r
+Git branch
+Git checkout <branchname>
+
+
+# Merging the branches
+
+
+
+
